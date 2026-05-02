@@ -1,3 +1,4 @@
-let age = 15;
-age = age + 5;
-console.log(age);
+function greet(name: string): string {
+  return `Hello, ${name}.`;
+}
+console.log(greet("aayush"));
